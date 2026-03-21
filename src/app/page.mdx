@@ -11,7 +11,7 @@ import { SiteLinks} from "@/data/SiteLinks";
 import { Paths } from "@/paths";
 
 import imgPhotoJames from "public/images/photo_james.jpg";
-import imgPhotoAnant from "public/images/photo_anant.jpg";
+import imgPhotoShaan from "public/images/photo_shaan.jpg";
 
 # Course Overview
 
@@ -20,13 +20,12 @@ import imgPhotoAnant from "public/images/photo_anant.jpg";
 ## Course Description
 
 This course provides an introduction to forms of contribution in several major areas of research in Human-Computer Interaction.
-Course activities are based in a combination of readings, active discussion and reflection on readings, and a self-defined group project.
+Course activities are based in a combination of readings, active discussion and reflection, and a self-defined group project.
 Across all of these, the course considers HCI research in terms of:
 
 - **Contribution**: what knowledge is gained through research activities.
 - **Method**: how research activities are structured to demonstrate contributions.
-- **Framing**: why contributions are valued,
-               through motivation, language, theory, or understanding that can contextualize activities and contributions.
+- **Framing**: how motivation, language, theory, or understanding provide context for activities and contributions.
 
 Course readings emphasize a combination of historic framing papers and more recent contributions.
 Discussion and reflection emphasize consideration of readings in terms of their contributions,
@@ -64,14 +63,15 @@ but students seeking an introduction to effective design or an iterative design 
     </p>
   </Box>
   <Box marginTop={-2} marginBottom={-2} marginRight={2}>
-    <p>Anant Mittal</p>
-    <p>he/him</p>
+    <p>Shaan Chopra</p>
+    <p>she/her</p>
     <p>
       {/* alt="", Treat as decorative, because name is read above */}
-      <Image src={imgPhotoAnant}
-             basePath={Paths.basePath}
-             height="150"
-             alt=""
+      <Image
+        src={imgPhotoShaan}
+        basePath={Paths.basePath}
+        height="150"
+        alt=""
       />
     </p>
   </Box>
@@ -84,19 +84,19 @@ but students seeking an introduction to effective design or an iterative design 
   Email course staff at &lt;cse510-staff [at] cs.washington.edu&gt;.
 
   Please do not email individual course staff.
-  Using the course staff email list promotes both staff coordination and a more prompt response.
-  Emails to individual course staff will typically have the staff email list added to any response.
-
-  Although we may provide a Slack channel for lightweight communication,
-  course staff cannot respond to individual inquiries via Slack.
-  Slack messages to individual staff will be redirected to either the public channel or the staff email list.
+  The course staff email list promotes both staff coordination and a more prompt response.
+  Emails to individual course staff will typically have the list added to any response.
 
 - **Course Time & Location**
 
   Tuesdays & Thursdays, 10:00-11:20.
 
+  <TBD outerComponent="p">Classroom TBD.</TBD>
+  
+  {/* 
   [CSE2](https://www.washington.edu/maps/#!/cse2)
   Room [G10](https://www.washington.edu/classroom/CSE2+G10).
+  */}
 
   The <SiteLink linkKey={SiteLinks.calendarTop} /> will provide any non-standard times, locations, or staffing.
 
@@ -122,10 +122,13 @@ Canvas and Drive will be used when appropriate for limiting access to course inf
 
 ## Grading
 
+<UnderDevelopment display={true} />
+
 Much of the grading in this course is necessarily subjective.
 We will attempt to communicate expectations and feedback throughout the course,
-but it is your responsibility to communicate with us if you would like additional guidance in this regard.
+but it is your responsibility to communicate with us if you would like additional guidance.
 
+<TBD outerComponent="div">
 
 The overall course grade will be computed as follows:
 
@@ -168,7 +171,10 @@ The overall course grade will be computed as follows:
 
   Participation will also include appropriate contribution in group assignments.
 
+</TBD>
+
 If necessary, the grades of specific assignments may also be adjusted based on participation and contribution.
+Any such adjustments will be applied as part of course grade calculation at the end of the quarter
 
 ### Late Policy
 
@@ -177,7 +183,7 @@ If there is a constraint or an emergency impacting your ability to submit an ass
 contact the course staff before the assignment deadline by email to the course staff list.
 
 We will do our best to be accommodating amidst requirements and expectations of the course
-(e.g., expecting clear and early communication regarding any constraints,
+(e.g., expecting clear and early communication,
 understanding that assignments supporting in-class discussion serve little purpose after that discussion,
 understanding that assignments support engagement and grading throughout the course).
 
@@ -186,14 +192,14 @@ understanding that assignments support engagement and grading throughout the cou
 Any request for grade clarification or a re-grade must be submitted by email to the course staff list.
 Requests will only be considered within 7 days of the release of a grade.
 
-Because reflection grading is both subjective and anonymous, we will be highly averse to revisiting the grade of a reflection.
-We will proactively work to promote fairness in the grading of these assignments,
-and students should expect that we will decline a request to revisit the grade of a reflection
+Because reflection grading is both subjective and anonymous, we will be averse to revising the grade of a reflection.
+We will proactively work to be fair in the grading of these assignments,
+then expect we would decline any request to revisit the grade of a reflection
 (e.g., because we cannot preserve anonymity in such a request).
 
 Upon calculation of final grades, we will explicitly check for any particularly unfortunate effects of rounding
 (e.g., adjusting a pre-rounding final grade of 3.649 to instead give a 3.7).
-This is intended to provide peace of mind that final grades were not defined by any minor point deduction.
+This is intended to provide confidence that final grades were not defined by any minor point deduction.
 
 ## Expectation of In-Person Participation
 
@@ -208,7 +214,7 @@ Remote participation will not be supported.
 
 If you will be absent for any reason, contact the course staff before class by email to the course staff list.
 We will track absence-related communication as part of the expectation of in-person participation,
-including any context you want to share about the need for an absence.
+including any context you share about the need for an absence.
 We will do our best to be accommodating amidst requirements and expectations of the course.
 
 ### COVID-19 Safety, Recordings, and Zoom
@@ -221,9 +227,9 @@ Please review and adhere to COVID-19 related guidance, including:
 <CourseDataLink linkKey={courseData.linkUniversityCovidGuidelines} outerComponent="p"/>
 
 We will aim to record course sessions (e.g., unless a guest indicates they do not want to be recorded).
-Recorded sessions will be available for review within
+Recorded sessions will be available within
 <CourseDataLink linkKey={courseData.linkCanvas}>Canvas</CourseDataLink>.
-However, we expect recordings will be of relatively poor quality
+We expect recordings will be of relatively poor quality
 and they are obviously an incomplete proxy for a discussion-focused course.
 Nevertheless, recording may sometimes be the best available option.
 
