@@ -1,3 +1,5 @@
+import { TBD } from "@/components/TBD";
+import { UnderDevelopment } from "@/components/UnderDevelopment";
 import { AssignmentDueDateTime } from "@/components/AssignmentDueDateTime";
 import { AssignmentSubmitCanvasLink } from "@/components/links/AssignmentSubmitCanvasLink";
 import { CourseDataLink } from "@/components/links/CourseDataLink";
@@ -8,11 +10,13 @@ import { SiteLinks } from "@/data/SiteLinks";
 
 # Project Proposal
 
+<UnderDevelopment display={false} />
+
 This is a component of the <SiteLink linkKey={SiteLinks.assignmentsProjectTop}/> assignment.
 Be sure you have reviewed that larger context.
 
 Your proposal will define your initial plan for this project.
-You can and should update this plan based on feedback, progress, and findings.
+You can and should revise your plan based on feedback, progress, and findings.
 The proposal therefore needs to demonstrate a robust initial plan for your project,
 but your project is expected to evolve as appropriate and necessary.
 
@@ -40,19 +44,22 @@ Within the provided document, using the provided template, prepare a proposal ad
 
   What existing understanding of the problem have you developed?
 
-  For a proposal focused on a study, this could cover the most important related work that sets a context for the question you want to explore.
+  For a proposal focused on an empirical study, this could cover the most important related work that sets a context for the question you want to explore.
+  For example, this might summarize the most relevant related work and highlight what questions remain important to explore.
 
-  For a proposal focused on development, this could introduce what you intend to develop and why this requires or could enable research.
-
-  For a proposal focused on design, this could introduce a need, existing solutions, why they fall short, an insight that suggests a potential opportunity.
+  For a proposal focused on artifact design or development, this could introduce what you intend to develop and why this requires or could enable research.
+  For example, this might introduce a need, existing solutions, why they fall short, an insight that suggests a potential opportunity.
 
   For a proposal based within a larger project outside the context of this course, this will also provide key context regarding that outside project.
+
+  In all cases, ensure your proposed activities are informed by prior research.
 
 - **Proposed Milestones**:
 
   What milestones will the group plan to accomplish?
 
-  There are two milestone reports in the quarter. These are opportunities for feedback and guidance. Explain what your group will plan to accomplish by each of these milestones. You will be asked to revisit these plans during those milestone reports.
+  There are two milestone reports in the quarter. These are opportunities for feedback and guidance. 
+  Explain what your group will plan to accomplish by each milestone. You will be asked to revisit these plans during those milestone reports.
 
 - **Scope, Limitations, and Contingencies**:
 
@@ -83,16 +90,28 @@ Prepare your proposal in this shared document:
 
 <CourseDataLink outerComponent="p" linkKey={courseData.linkDriveProposalDocument} />
 
-The use of a shared document for proposal preparation is intended to support early feedback.
+The use of a shared document for proposal preparation is intended to support both 
+early feedback (e.g., because staff can see and comment on in-progress drafts) 
+and group formation (e.g., because students can use the space to explore possible groups and projects).
 Feel free to use comments to tag staff and classmates with questions.
-We will also encourage you to review and comment on each other's proposals.
 
-We have also dedicated time for in-class proposal preparation and review.
-Proposals that are already beginning to develop will receive maximum benefit from feedback in this time.
+We have also dedicated time for in-class office hours around proposal preparation and review.
+Proposals that are already well-developed will receive maximum benefit from feedback in this time.
 
 ## Project Ideas
 
-Some sample project ideas, gathered from faculty and researchers, will be made available here:
+Projects can take many forms. For example, you might choose to:
+
+- Design and implement a new piece of HCI technology.
+- Design and execute a study with HCI research implications.
+- Perform a feasibility analysis or pilot study to inform future research plans.
+- Replicate an existing study or technology to gain experience or enable future research.
+- Execute a design or development effort in the context of an established research project.
+
+You are welcome and even encouraged to align your project with research goals outside this course.
+This can be helpful in providing background to help motivate a proposal.
+
+Some sample project ideas will be made available here:
 
 <CourseDataLink outerComponent="p" linkKey={courseData.linkCanvasDiscussionProjectIdeas} />
 
@@ -102,9 +121,9 @@ Sample project proposals from prior offerings have been made available here:
 
 <CourseDataLink outerComponent="p" linkKey={courseData.linkCanvasProjectProposalSamples} />
 
-Note that prior proposals were based on different format guidance
-(e.g., sometimes lacked an expected structure, sometimes had a different page count, sometimes were paired with in-class presentations).
-Be sure to engage with the guidance on desired proposal format in this offering.
+Note that prior proposals may have been based on different format guidance
+(e.g., sometimes lacked an expected structure, sometimes had a different page count, sometimes paired with in-class presentations).
+Be sure to engage with the guidance on desired proposal format and process in this offering.
 
 ## Submission
 
