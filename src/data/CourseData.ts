@@ -7,7 +7,7 @@ export type CourseDataLinkKey = {
   anchor?: React.ReactNode;
 };
 
-const LINK_CANVAS = "https://canvas.uw.edu/courses/1786160";
+const LINK_CANVAS = "https://canvas.uw.edu/courses/1881189";
 
 export const courseData = {
   // Link to Canvas.
@@ -17,36 +17,29 @@ export const courseData = {
 
   // Link to Canvas discussion.
   linkCanvasDiscussion: {
-    href: LINK_CANVAS + "/discussion_topics",
+    href: LINK_CANVAS ? LINK_CANVAS + "/discussion_topics" : undefined,
   },
 
   // Link to Canvas discussion for project ideas.
   linkCanvasDiscussionProjectIdeas: {
-    href: LINK_CANVAS + "/discussion_topics/9383505",
+    href: LINK_CANVAS ? LINK_CANVAS + "/discussion_topics/10393806" : undefined,
   },
 
   // Link to Canvas file folder of project samples.
   linkCanvasProjectProposalSamples: {
-    href: LINK_CANVAS + "/files/folder/project%20samples",
-  },
-
-  // Links to Canvas reflection submissions.
-  linkCanvasReflectionRequiredContribution: {
-    href: "https://canvas.uw.edu/courses/1786160/assignments/10051205",
-  },
-  linkCanvasReflectionRequiredMethod: {
-    href: "https://canvas.uw.edu/courses/1786160/assignments/10051182",
-  },
-  linkCanvasReflectionRequiredFraming: {
-    href: "https://canvas.uw.edu/courses/1786160/assignments/10051183",
-  },
-  linkCanvasReflectionOptional: {
-    href: "https://canvas.uw.edu/courses/1786160/assignments/10051201",
+    href: LINK_CANVAS
+      ? LINK_CANVAS + "/files/folder/project_samples"
+      : undefined,
   },
 
   // Link to course GitHub.
   linkGitHub: {
-    href: "https://github.com/uwcse510/web-cse510-25wi",
+    href: "https://github.com/uwcse510/web-cse510-26sp",
+  },
+
+  // Google Form: conference paper selections for Contributions in HCI class session.
+  linkFormContributionsInHCIConferencePapers: {
+    href: "https://forms.gle/PQMjo2YiwydvZPwAA",
   },
 
   // Link to UW COVID guidelines.
@@ -61,38 +54,50 @@ export const courseData = {
 
   // Link to course Drive.
   linkDrive: {
-    href: "https://drive.google.com/drive/folders/13vHGA0QND7_KURsE6gJNiPZzF26Kxk65?usp=sharing",
+    href: "https://drive.google.com/drive/folders/1ncai7HbvIhGcb-u496GCqdfi70LM_kqW?usp=sharing",
   },
 
   linkDrivePresentationSignup: {
-    href: "https://docs.google.com/document/d/1e8__5CSjknBdcDE1R8fYbzctd18s0l8s3hxfC9UJYXU/edit",
+    // TODO: Set href to Spring 2026 presentation signup document.
+    // Previous Winter 2025 URL:
+    // "https://docs.google.com/document/d/1e8__5CSjknBdcDE1R8fYbzctd18s0l8s3hxfC9UJYXU/edit"
   },
 
   linkDrivePresentationDraftSlides: {
-    href: "https://forms.gle/szGmmMFeaFNCCCSR8",
+    // TODO: Set href to Spring 2026 draft slides upload form.
+    // Previous Winter 2025 URL:
+    // "https://forms.gle/szGmmMFeaFNCCCSR8"
   },
 
   linkDrivePresentationGroupFeedback: {
-    href: "https://forms.gle/oG4ypBB4nj9nnPfd8",
+    // TODO: Set href to Spring 2026 group feedback form.
+    // Previous Winter 2025 URL:
+    // "https://forms.gle/oG4ypBB4nj9nnPfd8"
   },
 
   // Link to project proposal document.
   linkDriveProposalDocument: {
-    href: "https://docs.google.com/document/d/1-WoZWx0BROvs4wI8ZZxDCjlnZawnB_G7CCp4EoTL7Jw/edit?usp=sharing",
+    // TODO: Set href to Spring 2026 project proposal template/document.
+    // Previous Winter 2025 URL:
+    // "https://docs.google.com/document/d/1-WoZWx0BROvs4wI8ZZxDCjlnZawnB_G7CCp4EoTL7Jw/edit?usp=sharing"
   },
 
   // Link to project milestone meeting signup.
   linkDriveProjectMilestoneMeetingsSignup1: {
-    href: "https://drive.google.com/drive/folders/1e-mnBEmL7hisTvzVKRe_KcwBjVVjiPhd?usp=sharing",
+    // TODO: Set href to Spring 2026 milestone meeting signup (set 1).
+    // Previous Winter 2025 URL:
+    // "https://drive.google.com/drive/folders/1e-mnBEmL7hisTvzVKRe_KcwBjVVjiPhd?usp=sharing"
   },
 
   // Link to project milestone meeting signup.
   linkDriveProjectMilestoneMeetingsSignup2: {
-    href: "https://drive.google.com/drive/folders/1SpeOaA27XHKa-ltZodJ3HLCNiMuMHyZ1?usp=sharing",
+    // TODO: Set href to Spring 2026 milestone meeting signup (set 2).
+    // Previous Winter 2025 URL:
+    // "https://drive.google.com/drive/folders/1SpeOaA27XHKa-ltZodJ3HLCNiMuMHyZ1?usp=sharing"
   },
 
   linkProjectFinalReportCHIFormat: {
-    href: "https://chi2025.acm.org/chi-publication-formats/",
+    href: "https://chi2026.acm.org/chi-publication-formats/",
   },
 
   // Reading on paper writing
@@ -108,7 +113,7 @@ export const courseData = {
     authorText: "Jacob O. Wobbrock, Julie A. Kientz",
     title: "Research Contributions in Human-Computer Interaction",
     publicationText: "Interactions. 2016",
-    link: "https://canvas.uw.edu/files/128522132/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/contribution?preview=147531867",
   },
 
   readingContributionFogarty: {
@@ -116,7 +121,7 @@ export const courseData = {
     title: "Code and Contribution in Interactive Systems Research",
     publicationText:
       "CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits",
-    link: "https://canvas.uw.edu/files/128522176/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/usability_evaluation_considered_harmful?preview=147531662",
   },
 
   // Readings on methods
@@ -124,21 +129,21 @@ export const courseData = {
     authorText: "Judith S. Olson, Wendy A. Kellogg",
     title: "Ways of Knowing in HCI",
     publicationText: "2014",
-    link: "https://canvas.uw.edu/files/129188070/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803318",
   },
 
   readingMethodsExperimentDesignAndStatisticalAnalysis: {
     authorText: "Jacob O. Wobbrock",
     title: "Experiment Design and Statistical Analysis in HCI",
     publicationText: "2024",
-    link: "https://canvas.uw.edu/files/129188068/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147804206",
   },
 
   readingMethodsBraunAndClarke2012: {
     authorText: "Victoria Braun, Victoria Clarke",
     title: "Thematic Analysis",
     publicationText: "In APA Handbook of Research Methods in Psychology. 2012",
-    link: "https://canvas.uw.edu/files/129191177/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803319",
   },
 
   readingMethodsTerryHayfieldClarkeBraun2017: {
@@ -146,7 +151,7 @@ export const courseData = {
     title: "Thematic Analysis",
     publicationText:
       "In The SAGE Handbook of Qualitative Research in Psychology. 2017",
-    link: "https://canvas.uw.edu/files/129191175/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803316",
   },
 
   readingMethodsByrne2022: {
@@ -154,6 +159,6 @@ export const courseData = {
     title:
       "A Worked Example of Braun and Clarke's Approach to Reflexive Thematic Analysis",
     publicationText: "Quality & Quantity. 2021",
-    link: "https://canvas.uw.edu/files/129191179/",
+    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803320",
   },
 } as const;
