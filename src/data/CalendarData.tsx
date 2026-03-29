@@ -43,8 +43,7 @@ type dayOfWeek = (typeof dayOfWeekValues)[number];
 
 const TIME_AND_LOCATION_LECTURE = {
   time: "10:00 to 11:20",
-  // TODO: Update location when classroom is assigned.
-  location: "TBD",
+  location: "CSE2 G04",
 };
 
 export function parseCalendarDate(calendarDate: CalendarDate): Date {
