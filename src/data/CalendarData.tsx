@@ -566,31 +566,10 @@ export const calendarData: {
       date: verifyCalendarDate("2026-04-28", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "Research Topic: Interface Toolkits (Tentative)",
-      readingsStandard: {
-        framing: {
-          authorText: "Brad Myers, Scott E. Hudson, Randy Pausch",
-          title: "Past, Present, and Future of User Interface Software Tools",
-          publicationText: "TOCHI 2000",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793056",
-        },
-        instances: [
-          {
-            authorText:
-              "Junhan Kong, Mingyuan Zhong, James Fogarty, Jacob O. Wobbrock",
-            title:
-              "The Ability-Based Design Mobile Toolkit (ABD-MT): Developer Support for Runtime Interface Adaptation Based on Users' Abilities",
-            publicationText: "MobileHCI 2024",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793060",
-          },
-          {
-            authorText:
-              "Josh Pollock, Catherine Mei, Grace Huang, Elliot Evans, Daniel Jackson, Arvind Satyanarayan",
-            title: "Bluefish: Composing Diagrams with Declarative Relations",
-            publicationText: "UIST 2024",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793058",
-          },
-        ],
+      title: "Research Topic: Computational Materials (Tentative)",
+      guest: {
+        name: "Yiyue Luo",
+        link: "https://yyueluo.com/",
       },
     },
     {
@@ -674,7 +653,32 @@ export const calendarData: {
       date: verifyCalendarDate("2026-05-19", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "Research Topic: TBD",
+      title: "Research Topic: Interface Toolkits (Tentative)",
+      readingsStandard: {
+        framing: {
+          authorText: "Brad Myers, Scott E. Hudson, Randy Pausch",
+          title: "Past, Present, and Future of User Interface Software Tools",
+          publicationText: "TOCHI 2000",
+          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793056",
+        },
+        instances: [
+          {
+            authorText:
+              "Junhan Kong, Mingyuan Zhong, James Fogarty, Jacob O. Wobbrock",
+            title:
+              "The Ability-Based Design Mobile Toolkit (ABD-MT): Developer Support for Runtime Interface Adaptation Based on Users' Abilities",
+            publicationText: "MobileHCI 2024",
+            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793060",
+          },
+          {
+            authorText:
+              "Josh Pollock, Catherine Mei, Grace Huang, Elliot Evans, Daniel Jackson, Arvind Satyanarayan",
+            title: "Bluefish: Composing Diagrams with Declarative Relations",
+            publicationText: "UIST 2024",
+            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793058",
+          },
+        ],
+      },
     },
     {
       date: verifyCalendarDate("2026-05-21", "Thu"),
