@@ -66,9 +66,7 @@ export const courseData = {
   },
 
   linkDrivePresentationSignup: {
-    // TODO: Set href to Spring 2026 presentation signup document.
-    // Previous Winter 2025 URL:
-    // "https://docs.google.com/document/d/1e8__5CSjknBdcDE1R8fYbzctd18s0l8s3hxfC9UJYXU/edit"
+    href: "https://docs.google.com/spreadsheets/d/1pa33MwUUe7crzLCCz75YRirtxaa6VhX_KQ6kfYf0sWU/edit?usp=sharing",
   },
 
   linkDrivePresentationDraftSlides: {
@@ -85,9 +83,7 @@ export const courseData = {
 
   // Link to project proposal document.
   linkDriveProposalDocument: {
-    // TODO: Set href to Spring 2026 project proposal template/document.
-    // Previous Winter 2025 URL:
-    // "https://docs.google.com/document/d/1-WoZWx0BROvs4wI8ZZxDCjlnZawnB_G7CCp4EoTL7Jw/edit?usp=sharing"
+    href: "https://docs.google.com/document/d/19ZT3K_pA_gxL-BZkwmPeou6DsmuFGE6XyDXW-maJpO8/edit?usp=sharing",
   },
 
   // Link to project milestone meeting signup.
