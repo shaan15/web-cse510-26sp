@@ -731,8 +731,7 @@ export const calendarData: {
           authorText: "Petr Slovak, Sean A. Munson",
           title:
             "HCI Contributions in Mental Health: A Modular Framework to Guide Psychosocial Intervention Design",
-          publicationText: "CHI 2024",
-          link: "https://doi.org/10.1145/3613904.3642624",
+          publicationText: "CHI 2024",          
         },
         // TODO: Decide Spring 2026 instance papers.
         instances: [],

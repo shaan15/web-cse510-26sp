@@ -117,7 +117,7 @@ export const courseData = {
     authorText: "Jacob O. Wobbrock, Julie A. Kientz",
     title: "Research Contributions in Human-Computer Interaction",
     publicationText: "Interactions. 2016",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/contribution?preview=147531867",
+    link: "https://canvas.uw.edu/files/147531867",
   },
 
   readingContributionFogarty: {
@@ -125,29 +125,29 @@ export const courseData = {
     title: "Code and Contribution in Interactive Systems Research",
     publicationText:
       "CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/usability_evaluation_considered_harmful?preview=147531662",
-  },
+      link: "https://canvas.uw.edu/files/147531662",
+    },
 
   // Readings on methods
   readingMethodsWaysOfKnowing: {
     authorText: "Judith S. Olson, Wendy A. Kellogg",
     title: "Ways of Knowing in HCI",
     publicationText: "2014",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803318",
+    link: "https://canvas.uw.edu/files/148139224",
   },
 
   readingMethodsExperimentDesignAndStatisticalAnalysis: {
     authorText: "Jacob O. Wobbrock",
     title: "Experiment Design and Statistical Analysis in HCI",
     publicationText: "2024",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147804206",
+    link: "https://canvas.uw.edu/files/148139079",
   },
 
   readingMethodsBraunAndClarke2012: {
     authorText: "Victoria Braun, Victoria Clarke",
     title: "Thematic Analysis",
     publicationText: "In APA Handbook of Research Methods in Psychology. 2012",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803319",
+    link: "https://canvas.uw.edu/files/148139264",
   },
 
   readingMethodsTerryHayfieldClarkeBraun2017: {
@@ -155,14 +155,14 @@ export const courseData = {
     title: "Thematic Analysis",
     publicationText:
       "In The SAGE Handbook of Qualitative Research in Psychology. 2017",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803316",
-  },
+      link: "https://canvas.uw.edu/files/148139324",
+    },
 
   readingMethodsByrne2022: {
     authorText: "David Byrne",
     title:
       "A Worked Example of Braun and Clarke's Approach to Reflexive Thematic Analysis",
     publicationText: "Quality & Quantity. 2021",
-    link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/methods?preview=147803320",
+    link: "https://canvas.uw.edu/files/148139309",
   },
 } as const;
