@@ -501,7 +501,7 @@ export const calendarData: {
           title:
             "DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice",
           publicationText: "HCI. 2003",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/design_tools?preview=147792899",
+          link: "https://canvas.uw.edu/files/148138315"
         },
         instances: [
           {
@@ -509,14 +509,14 @@ export const calendarData: {
             title:
               "Exploring the Diminishing Allure of Paper and Low-Fidelity Prototyping Among Designers in the Software Industry: Impacts of Hybrid Work, Digital Tools, and Corporate Culture",
             publicationText: "CHI 2024",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/design_tools?preview=147792920",
+            link: "https://canvas.uw.edu/files/148138253"
           },
           {
             authorText: "Peitong Duan, Jeremy Warner, Yang Li, Bjoern Hartmann",
             title:
               "Generating Automatic Feedback on UI Mockups with Large Language Models",
             publicationText: "CHI 2024",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/design_tools?preview=147792902",
+            link: "https://canvas.uw.edu/files/147792902"
           },
         ],
       },
@@ -525,6 +525,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-04-23", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: Accessibility",
       guest: {
         name: "Martez Mott",
@@ -536,7 +537,6 @@ export const calendarData: {
             "Jacob O. Wobbrock, Krzysztof Z. Gajos, Shaun K. Kane, Gregg C. Vanderheiden",
           title: "Ability-Based Design",
           publicationText: "CACM. 2018",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/accessibility?preview=147793007",
         },
         // TODO: Decide Spring 2026 instance papers.
         // instances: [
@@ -566,6 +566,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-04-28", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: Computational Materials",
       guest: {
         name: "Yiyue Luo",
@@ -576,6 +577,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-04-30", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: Human-AI Interaction",
       guest: {
         name: "Kevin Feng",
@@ -586,7 +588,6 @@ export const calendarData: {
           authorText: "Eric Horvitz",
           title: "Principles of Mixed-Initiative User Interfaces",
           publicationText: "CHI 1999",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/human_ai_interaction?preview=147793102",
         },
         // TODO: Decide Spring 2026 instance papers.
         instances: [],
@@ -597,6 +598,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-05-12", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: CSCW and Social Computing",
       guest: {
         name: "Mako Hill",
@@ -641,6 +643,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-05-14", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: Research Through Design",
       guest: {
         name: "Audrey Desjardins",
@@ -659,7 +662,7 @@ export const calendarData: {
           authorText: "Brad Myers, Scott E. Hudson, Randy Pausch",
           title: "Past, Present, and Future of User Interface Software Tools",
           publicationText: "TOCHI 2000",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793056",
+          link: "https://canvas.uw.edu/files/148138926"
         },
         instances: [
           {
@@ -668,14 +671,14 @@ export const calendarData: {
             title:
               "The Ability-Based Design Mobile Toolkit (ABD-MT): Developer Support for Runtime Interface Adaptation Based on Users' Abilities",
             publicationText: "MobileHCI 2024",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793060",
+            link: "https://canvas.uw.edu/files/147793060"
           },
           {
             authorText:
               "Josh Pollock, Catherine Mei, Grace Huang, Elliot Evans, Daniel Jackson, Arvind Satyanarayan",
             title: "Bluefish: Composing Diagrams with Declarative Relations",
             publicationText: "UIST 2024",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/interface_toolkits?preview=147793058",
+            link: "https://canvas.uw.edu/files/147793058"
           },
         ],
       },
@@ -684,6 +687,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-05-21", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: Human-Agent Interaction",
       guest: {
         name: "Gagan Bansal",
@@ -695,7 +699,6 @@ export const calendarData: {
             "Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam Fourney, Hussein Mozannar, Victor Dibia, Daniel S. Weld",
           title: "Challenges in Human-Agent Communication",
           publicationText: "arXiv. 2024",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/human_agent_interaction?preview=147793143",
         },
         // TODO: Decide Spring 2026 instance papers.
         // instances: [
@@ -717,16 +720,29 @@ export const calendarData: {
       date: verifyCalendarDate("2026-06-02", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: HCI and Health",
       guest: {
         name: "Sean Munson",
         link: "https://www.smunson.com/",
+      },
+      readingsStandard: {
+        framing: {
+          authorText: "Petr Slovak, Sean A. Munson",
+          title:
+            "HCI Contributions in Mental Health: A Modular Framework to Guide Psychosocial Intervention Design",
+          publicationText: "CHI 2024",
+          link: "https://doi.org/10.1145/3613904.3642624",
+        },
+        // TODO: Decide Spring 2026 instance papers.
+        instances: [],
       },
     },
     {
       date: verifyCalendarDate("2026-06-04", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
+      tbd: true,
       title: "Research Topic: Sustained HCI Research in the World",
       guests: [
         {
@@ -744,7 +760,6 @@ export const calendarData: {
           title:
             "Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia",
           publicationText: "UIST 2021",
-          // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/sustained_hci_research_in_the_world?preview=147793197",
         },
         instances: [
           {
@@ -753,7 +768,6 @@ export const calendarData: {
             title:
               "Deploying and Examining Beacon for At-Home Patient Self-Monitoring with Critical Flicker Frequency",
             publicationText: "CHI 2025",
-            // link: "https://canvas.uw.edu/courses/1881189/files/folder/readings/sustained_hci_research_in_the_world?preview=147793199",
           },
           // {
           //   authorText: "Esther Han Beol Jang et al",

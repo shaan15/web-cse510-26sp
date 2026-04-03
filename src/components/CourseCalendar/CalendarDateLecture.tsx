@@ -20,7 +20,7 @@ import { idAnchorText } from "@/utils/idAnchorText";
 import { ExpandCircleDownOutlined } from "@mui/icons-material";
 import { Box, Collapse, Grid, Paper, Typography } from "@mui/material";
 
-// import { differenceInCalendarDays } from "date-fns";
+import { differenceInCalendarDays } from "date-fns";
 
 import { CALENDAR_DATE_FORMAT } from "./CourseCalendar";
 
