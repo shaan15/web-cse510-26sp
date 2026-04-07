@@ -70,15 +70,11 @@ export const courseData = {
   },
 
   linkDrivePresentationDraftSlides: {
-    // TODO: Set href to Spring 2026 draft slides upload form.
-    // Previous Winter 2025 URL:
-    // "https://forms.gle/szGmmMFeaFNCCCSR8"
+    href: "https://forms.gle/D4UPta2rG4YmeBTC8",
   },
 
   linkDrivePresentationGroupFeedback: {
-    // TODO: Set href to Spring 2026 group feedback form.
-    // Previous Winter 2025 URL:
-    // "https://forms.gle/oG4ypBB4nj9nnPfd8"
+    href: "https://forms.gle/osKa9sMVbEDCLDys7",
   },
 
   // Link to project proposal document.
@@ -86,18 +82,18 @@ export const courseData = {
     href: "https://docs.google.com/document/d/19ZT3K_pA_gxL-BZkwmPeou6DsmuFGE6XyDXW-maJpO8/edit?usp=sharing",
   },
 
-  // Link to project milestone meeting signup.
-  linkDriveProjectMilestoneMeetingsSignup1: {
-    // TODO: Set href to Spring 2026 milestone meeting signup (set 1).
-    // Previous Winter 2025 URL:
-    // "https://drive.google.com/drive/folders/1e-mnBEmL7hisTvzVKRe_KcwBjVVjiPhd?usp=sharing"
+  linkDriveProjectGroupOfficeHoursSignup: {
+    href: "https://docs.google.com/document/d/1uV_ZG2Xvi-YtHPtSJ-FM9UgDO_obtYCg6fe6LcHuBcQ/edit?usp=sharing",
   },
 
   // Link to project milestone meeting signup.
-  linkDriveProjectMilestoneMeetingsSignup2: {
-    // TODO: Set href to Spring 2026 milestone meeting signup (set 2).
-    // Previous Winter 2025 URL:
-    // "https://drive.google.com/drive/folders/1SpeOaA27XHKa-ltZodJ3HLCNiMuMHyZ1?usp=sharing"
+  linkDriveProjectMilestoneMeetings1Signup: {
+    href: "https://docs.google.com/document/d/1LZgKwTYgMZNWorroYvSwL_dNZBgpD4SJmhOAVl1PmKU/edit?usp=sharing",
+  },
+
+  // Link to project milestone meeting signup.
+  linkDriveProjectMilestoneMeetings2Signup: {
+    href: "https://docs.google.com/document/d/1-XLvrPnubCw35nUBJaBa8OfZKMLOWPmOVKJH_vwsZWs/edit?usp=sharing",
   },
 
   linkProjectFinalReportCHIFormat: {

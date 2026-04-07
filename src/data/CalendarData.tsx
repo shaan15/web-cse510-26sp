@@ -475,18 +475,13 @@ export const calendarData: {
     },
     // Week 3
     {
-      date: verifyCalendarDate("2026-04-14", "Tue"),
+      dates: [
+        verifyCalendarDate("2026-04-14", "Tue"),
+        verifyCalendarDate("2026-04-16", "Thu"),
+      ],
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "Office Hours for Project Groups",
-      contentNonstandard: <ContentNoReading />,
-    },
-    {
-      date: verifyCalendarDate("2026-04-16", "Thu"),
-      timeAndLocation: TIME_AND_LOCATION_LECTURE,
-      type: "lecture",
-      title: "Office Hours for Project Groups",
-      contentNonstandard: <ContentNoReading />,
     },
     // Week 4
     {
