@@ -533,26 +533,6 @@ export const calendarData: {
           title: "Ability-Based Design",
           publicationText: "CACM. 2018",
         },
-        // TODO: Decide Spring 2026 instance papers.
-        // instances: [
-        //   {
-        //     authorText: "Rachel L. Franz, Sasa Junuzovic, Martez Mott",
-        //     title:
-        //       "Nearmi: A Framework for Designing Point of Interest Techniques for VR Users with Limited Mobility",
-        //     publicationText: "ASSETS 2021",
-        //     // Previous URL:
-        //     // "https://canvas.uw.edu/files/129729206/",
-        //   },
-        //   {
-        //     authorText:
-        //       "Momona Yamagami, Sasa Junuzovic, Mar Gonzalez-Franco, Eyal Ofek, Edward Cutrell, John R. Porter, Andrew D. Wilson, Martez E. Mott",
-        //     title:
-        //       "Two-In-One: A Design Space for Mapping Unimanual Input into Bimanual Interactions in VR for Users with Limited Movement",
-        //     publicationText: "TACCESS. 2022",
-        //     // Previous URL:
-        //     // "https://canvas.uw.edu/files/129729434/",
-        //   },
-        // ],
         instances: [
           {
             authorText: "Chen Liang, Yuxuan Liu, Martez Mott, Anhong Guo.",
@@ -587,7 +567,6 @@ export const calendarData: {
           publicationText: "Interactions 2012",
           link: "https://doi.org/10.1145/2065327.2065337",
         },
-        // TODO: Decide Spring 2026 instance papers.
         instances: [
           {
             authorText: "Junyi Zhu, Jackson C. Snowden, Joshua Verdejo, Emily Chen, Paul Zhang, Hamid Ghaednia, Joseph H. Schwab, Stefanie Mueller",
@@ -620,7 +599,6 @@ export const calendarData: {
           title: "Principles of Mixed-Initiative User Interfaces",
           publicationText: "CHI 1999",
         },
-        // TODO: Decide Spring 2026 instance papers.
         instances: [
           {
             authorText: "Jeffrey Heer",
@@ -693,14 +671,13 @@ export const calendarData: {
         name: "Audrey Desjardins",
         link: "http://audreydesjardins.com/",
       },
-      // TODO: Decide Spring 2026 papers.
       readingsStandard: {
-        // framing: {
-        //   authorText: "",
-        //   title: "",
-        //   publicationText: "",
-        // },
-        // TODO: Decide Spring 2026 instance papers.
+        framing: {
+          authorText: "William Gaver",
+          title: "What should we expect from research through design?",
+          publicationText: "CHI 2012",
+          link: "https://dl.acm.org/doi/10.1145/2207676.2208538",
+        },
         instances: [
           {
             authorText: "Audrey Desjardins, Jena McWhirter, Justin Petelka, Chandler Simon, Yuna Shin, Ruby K Peven, Philbert Widjaja",
