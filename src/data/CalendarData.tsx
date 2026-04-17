@@ -532,19 +532,20 @@ export const calendarData: {
             "Jacob O. Wobbrock, Krzysztof Z. Gajos, Shaun K. Kane, Gregg C. Vanderheiden",
           title: "Ability-Based Design",
           publicationText: "CACM. 2018",
+          link: "https://canvas.uw.edu/files/148167322",
         },
         instances: [
           {
             authorText: "Chen Liang, Yuxuan Liu, Martez Mott, Anhong Guo.",
             title: "HandProxy: Expanding the Affordances of Speech Interfaces in Immersive Environments with a Virtual Proxy Hand",
             publicationText: "IMWUT 2025",
-            link: "https://doi.org/10.1145/3749484",
+            link: "https://canvas.uw.edu/files/148756863",
           },
           {
             authorText: "Jeremy Zhengqi Huang, Caluã de Lacerda Pataca, Liang-Yuan Wu, Dhruv Jain",
             title: "CapTune: Adapting Non-Speech Captions With Anchored Generative Models",
             publicationText: "ASSETS 2025",
-            link: "https://doi.org/10.1145/3663547.3746346",
+            link: "https://canvas.uw.edu/files/148756860",
           },
         ],
       },
@@ -563,22 +564,22 @@ export const calendarData: {
       readingsStandard: {
         framing: {
           authorText: "Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni, Jean-Baptiste Labrune",
-          title: "Radical atoms: beyond tangible bits, toward transformable materials",
+          title: "Radical Atoms: Beyond Tangible Bits, Toward Transformable Materials",
           publicationText: "Interactions 2012",
-          link: "https://doi.org/10.1145/2065327.2065337",
+          link: "https://canvas.uw.edu/files/148758208",
         },
         instances: [
           {
             authorText: "Junyi Zhu, Jackson C. Snowden, Joshua Verdejo, Emily Chen, Paul Zhang, Hamid Ghaednia, Joseph H. Schwab, Stefanie Mueller",
             title: "EIT-kit: An Electrical Impedance Tomography Toolkit for Health and Motion Sensing",
             publicationText: "UIST 2021",
-            link: "https://dl.acm.org/doi/10.1145/3472749.3474758",
+            link: "https://canvas.uw.edu/files/148758207",
           },
           {
             authorText: "Yiyue Luo, Chao Liu, Young Joong Lee, Joseph DelPreto, Kui Wu, Michael Foshey, Daniela Rus, Tomás Palacios, Yunzhu Li, Antonio Torralba, Wojciech Matusik",
-            title: "Adaptive tactile interaction transfer via digitally embroidered smart gloves",
+            title: "Adaptive Tactile Interaction Transfer via Digitally Embroidered Smart Gloves",
             publicationText: "Nature Communications 2024",
-            link: "https://www.nature.com/articles/s41467-024-45059-8",
+            link: "https://canvas.uw.edu/files/148758204",
           },
         ],
       },
@@ -598,19 +599,20 @@ export const calendarData: {
           authorText: "Eric Horvitz",
           title: "Principles of Mixed-Initiative User Interfaces",
           publicationText: "CHI 1999",
+          link: "https://canvas.uw.edu/files/148138793",
         },
         instances: [
           {
             authorText: "Jeffrey Heer",
             title: "Agency plus Automation: Designing Artificial Intelligence into Interactive Systems",
             publicationText: "PNAS. 2019",
-            link: "https://www.pnas.org/doi/abs/10.1073/pnas.1807184115",
+            link: "https://canvas.uw.edu/files/148758423",
           },
           {
             authorText: "K. J. Kevin Feng, Kevin Pu, Matt Latzke, Tal August, Pao Siangliulue, Jonathan Bragg, Daniel S. Weld, Amy X. Zhang, Joseph Chee Chang",
             title: "Cocoa: Co-Planning and Co-Execution with AI Agents",
             publicationText: "arXiv. 2024",
-            link: "https://arxiv.org/abs/2412.10999",
+            link: "https://canvas.uw.edu/files/148758428",
           },
         ],
       },
@@ -674,22 +676,22 @@ export const calendarData: {
       readingsStandard: {
         framing: {
           authorText: "William Gaver",
-          title: "What should we expect from research through design?",
+          title: "What Should We Expect from Research through Design?",
           publicationText: "CHI 2012",
-          link: "https://dl.acm.org/doi/10.1145/2207676.2208538",
+          link: "https://canvas.uw.edu/files/148762666",
         },
         instances: [
           {
             authorText: "Audrey Desjardins, Jena McWhirter, Justin Petelka, Chandler Simon, Yuna Shin, Ruby K Peven, Philbert Widjaja",
             title: "On the Making of Alternative Data Encounters: The Odd Interpreters",
             publicationText: "CHI 2023",
-            link: "https://dl.acm.org/doi/full/10.1145/3544548.3581323",
+            link: "https://canvas.uw.edu/files/148762656",
           },
           {
             authorText: "Noura Howell, Audrey Desjardins, Sarah Fox",
             title: "Cracks in the Success Narrative: Rethinking Failure in Design Research through a Retrospective Trioethnography",
             publicationText: "ToCHI 2021",
-            link: "https://dl.acm.org/doi/full/10.1145/3462447",
+            link: "https://canvas.uw.edu/files/148762672",
           },
         ],
       },
