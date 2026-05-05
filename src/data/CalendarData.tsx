@@ -619,7 +619,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-05-12", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      tbd: true,
+      // tbd: true,
       title: "Research Topic: CSCW and Social Computing",
       guest: {
         name: "Mako Hill",
@@ -634,7 +634,7 @@ export const calendarData: {
           // TODO: Set link to Spring 2026 Canvas file for this reading.
           // Previous URL:
           // "https://canvas.uw.edu/files/130016049/",
-          link: "",
+          link: "https://canvas.uw.edu/files/149562210",
         },
         // TODO: Select instance papers for Spring 2026.
         // instances: [
@@ -657,7 +657,20 @@ export const calendarData: {
         //     // "https://canvas.uw.edu/files/130016264/",
         //   },
         // ],
-        instances: [],
+        instances: [
+          {
+            authorText: "Chenyan Jia, Michelle S. Lam, Minh Chau Mai, Jeffrey T. Hancock, Michael S. Bernstein.",
+            title: "Embedding Democratic Values into Social Media AIs via Societal Objective Functions",
+            publicationText: "CSCW 2024",
+            link: "https://canvas.uw.edu/files/149562211",
+          },
+          {
+            authorText: "Jack Bandy, Nicholas Diakopoulos",
+            title: "More Accounts, Fewer Links: How Algorithmic Curation Impacts Media Exposure in Twitter Timelines",
+            publicationText: "CSCW 2021",
+            link: "https://canvas.uw.edu/files/149562214",
+          },
+        ],
       },
     },
     {
@@ -728,7 +741,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-05-21", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      tbd: true,
+      // tbd: true,
       title: "Research Topic: Human-Agent Interaction",
       guest: {
         name: "Gagan Bansal",
@@ -740,6 +753,7 @@ export const calendarData: {
             "Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam Fourney, Hussein Mozannar, Victor Dibia, Daniel S. Weld",
           title: "Challenges in Human-Agent Communication",
           publicationText: "arXiv. 2024",
+          link: "https://canvas.uw.edu/files/148138718"
         },
         // TODO: Decide Spring 2026 instance papers.
         // instances: [
@@ -753,7 +767,23 @@ export const calendarData: {
         //     // "https://canvas.uw.edu/files/129687809/",
         //   },
         // ],
-        instances: [],
+        instances: [
+          {
+            authorText:
+              "Hussein Mozannar, Gagan Bansal, Cheng Tan, Adam Fourney, Victor Dibia, Jingya Chen, Jack Gerrits, Tyler Payne, Matheus Kunzler Maldaner, Madeleine Grunde-McLaughlin, Eric Zhu, Griffin Bassman, Jacob Alber, Peter Chang, Ricky Loynd, Friederike Niedtner, Ece Kamar, Maya Murad, Rafah Hosn, Saleema Amershi",
+            title:
+              "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
+            publicationText: "arXiv 2025",
+            link: "https://canvas.uw.edu/files/149561485"
+          },
+          {
+            authorText:
+              "Faria Huq, Zora Zhiruo Wang, Frank F. Xu, Tianyue Ou, Shuyan Zhou, Jeffrey P. Bigham, Graham Neubig",
+            title: "COWPILOT: A Framework for Autonomous and Human-Agent Collaborative Web Navigation",
+            publicationText: "NAACL 2025 Demo",
+            link: "https://canvas.uw.edu/files/149561482"
+          },
+        ],
       },
     },
     // Week 10
